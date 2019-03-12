@@ -2,7 +2,23 @@ body {
   font-family: sans-serif;
   color: 87B6A7;
   style:="background": url(https://images.unsplash.com/photo-1492892132812-a00a8b245c45?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80)
+  div.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+  }
 
+  div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+
+  div.scrollmenu a:hover {
+    background-color: #777;
+  }
 
 }
 .asdf{
