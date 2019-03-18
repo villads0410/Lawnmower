@@ -1,11 +1,13 @@
 body {
   font-family: sans-serif;
   color: 87B6A7;
+}
 
-  div.scrollmenu {
+div.scrollmenu {
     overflow: auto;
     white-space: nowrap;
-  }
+    text-align: center
+}
 
   div.scrollmenu a {
     display: inline-block;
